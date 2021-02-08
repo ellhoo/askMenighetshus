@@ -1,0 +1,66 @@
+body{font-family: Arial, Helvetica, sans-serif;
+    margin:0;
+    background-image:url("Bilder/skyer.jpg")
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    float: left;
+    justify-content: left;
+    width: 50%;
+}
+
+.images {
+    float: right;
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    width: 45%;
+}
+
+div > div {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+}
+
+img {
+    border-radius: 1.5cm;
+    padding-top:0.5cm;
+    padding-bottom: 0.5cm;
+    padding-left: 0.5cm;
+}
+
+.headline {
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 0.5cm;
+    width: 100%;
+    font-size: larger;
+}
+
+.box1 {
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 0.5cm;
+    width: 100%;
+}
+
+.box2 {
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 0.5cm;
+    width: 100%;
+}
+
+.box3 {
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 0.5cm;
+    width: 50%;
+}
+
+.houseimages > img {
+    float: right;
+}
